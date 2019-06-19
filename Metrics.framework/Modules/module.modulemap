@@ -1,0 +1,11 @@
+framework module Metrics {
+  umbrella header "Metrics.h"
+
+  export *
+  module * { export * }
+}
+
+module Metrics.Swift {
+    header "Metrics-Swift.h"
+    requires objc
+}
